@@ -1,43 +1,33 @@
-# StudyBuddy – Smart To-Do & Focus Tracker for Students
+# 🎓 StudyBuddy – Smart To-Do & Focus Tracker for Students
 
-StudyBuddy is a simple and beautiful desktop productivity app built using Python. It helps students stay focused, manage their tasks, and track their progress using a Pomodoro timer, task list, and daily productivity chart. Designed especially for students who struggle with procrastination, StudyBuddy is your all-in-one academic companion.
+**StudyBuddy** is a simple yet powerful productivity tool designed for students. It combines an easy-to-use task manager with a Pomodoro-style focus timer and a visual productivity tracker. The app is built with **Python** and **Tkinter**, with progress visualizations powered by **Matplotlib**.
 
 ---
 
 ## Features
 
-- Add, edit, and delete tasks with due dates
-- Check off completed tasks
-- Built-in Pomodoro timer (25 min focus + 5 min break)
-- Daily progress tracking with visual charts
-- Local data storage (no internet needed)
-- Light-blue themed clean and modern UI
+- Add and track daily study tasks  
+- Delete completed tasks easily  
+- View a bar chart of tasks completed each day  
+- Built-in 25-minute focus timer with end-of-session alert  
+- Saves your tasks automatically to a local JSON file  
+- Lightweight and runs offline with no extra setup
 
 ---
 
-## Technologies Used
+## Requirements
 
-- **Python 3**
-- **Tkinter** (for GUI)
-- **Matplotlib** (for graph plotting)
-- **JSON** (for local data storage)
+- Python 3.x
 
----
+### Python Libraries:
+- `tkinter` (usually included with Python)
+- `matplotlib`
 
-## How to Run
+You can install matplotlib using:
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://ksu-is/StudyBuddy_app.git
-   cd StudyBuddy
-2. **install dependencies**
-  ''' pip install matplotlib'''
-3. **Run the app**
-   '' python main.py'
+```bash
+pip install matplotlib
 
-**Project Goals**
--Help students manage their time effectively
-
--Provide a simple and local alternative to online productivity tools
-
--Build a user-friendly tool that combines focus, tasks, and motivation in one place
+- How to run
+run the main file using 
+-python main.py

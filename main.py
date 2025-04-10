@@ -42,7 +42,8 @@ class StudyBuddyApp:
         self.status_label.pack(pady=5)
 
         self.update_task_list()
-
+        # New Feature: Add task shortcut
+        self.root.bind("<Control-n>", lambda e: self.add_task())
     def add_task(self):
         task_text = simpledialog.askstring("New Task", "Enter your task:")
         if task_text:
